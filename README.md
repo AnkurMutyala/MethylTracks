@@ -1,4 +1,4 @@
-# Scripts are sorted by input file
+# Note: Scripts are sorted by input file type
 
 Using Methyltransferase Fusion Constructs and Nanopore Sequencing to Map Intra-Chromosomal Cohesin Translocation
 by: Ankur Mutyala
