@@ -23,4 +23,4 @@ samtools index \
 
 #Note: BAM files must be sorted before indexing (see MethylTracks/BAM/sorting.sh).
 
-</path/to/sorted/IN_BAM_1> </path/to/sorted/IN_BAM_2> ... </path/to/sorted/IN_BAM_N>
+</path/to/sorted/BAM_1> </path/to/sorted/BAM_2> ... </path/to/sorted/BAM_N>
