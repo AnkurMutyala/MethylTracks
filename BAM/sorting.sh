@@ -13,4 +13,4 @@ module load samtools
 
 #Use Samtools sort command
 
-samtools sort -o </desired/path/and/name/of/sorted/BAM> -o </path/to/input/unsorted/BAM>
+samtools sort -o </desired/path/and/name/of/output/sorted/BAM> </path/to/input/unsorted/BAM>
