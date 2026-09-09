@@ -1,6 +1,6 @@
-# Note: Scripts are sorted by input file type
+# Using Methyltransferase Fusion Constructs and Nanopore Sequencing to Map Intra-Chromosomal Cohesin Translocation
+### Note: Scripts are sorted by input file type
 
-Using Methyltransferase Fusion Constructs and Nanopore Sequencing to Map Intra-Chromosomal Cohesin Translocation \
 by Ankur Mutyala \
 in the lab of Dr. Jill Dowen, Department of Biochemistry and Biophysics \
 Senior Honors Thesis \
