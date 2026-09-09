@@ -1,3 +1,5 @@
+##SORTS READS IN ORDER OF BEGINNING GENOMIC COORDINATE, STARTING WITH READ BEGINNING CLOSEST TO BP 1 ON HG38 CHR1
+
 #!/bin/bash
 #SBATCH --job-name=sorting
 #SBATCH --ntasks=1
@@ -7,10 +9,10 @@
 #SBATCH -e [path/to/error/folder/].%j.err
 #SBATCH --time=24:00:00
 
-#Load Samtools
+##Load Samtools
 
 module load samtools
 
-#Use Samtools sort command
+##Use Samtools sort command
 
 samtools sort -o </desired/path/and/name/of/output/sorted/BAM> </path/to/input/unsorted/BAM>
