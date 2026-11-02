@@ -5,10 +5,8 @@
 #SBATCH --time=24:00:00
 
 module load modkit
-
-BAM=</PATH/TO/SORTED/INPUT.BAM>
     
 modkit summary \
---reference </PATH/TO/HG38.FASTA> \
+--reference </path/to/hg38.fasta> \
 --motif GATC 1 \
-$BAM > /PATH/TO/OUTPUT.out
+</path/to/sorted/input.bam> > </path/to/summary.out>
