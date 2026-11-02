@@ -5,4 +5,4 @@
 ### Jill Dowen Lab
 ### UNC-CH Department of Biology
 
-<img width="3300" height="2550" alt="CompWorkflow" src="https://github.com/user-attachments/assets/18daa0ed-af40-4261-899e-ea89d57c1270" />
+<img width="3300" height="2550" alt="CompWorkflow" src="https://github.com/user-attachments/assets/c029e494-056e-4bfa-aa64-a0a3a2b0e941" />
