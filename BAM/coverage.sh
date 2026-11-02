@@ -1,5 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=am_stCoverage
 #SBATCH --ntasks=1
 #SBATCH --mem=10G
 #SBATCH -N 1
@@ -7,4 +6,4 @@
 
 module load samtools
 
-samtools coverage -o /PATH/TO/OUTPUT.tsv </PATH/TO/SORTED/INPUT.BAM>
+samtools coverage --output </path/to/output.tsv> </path/to/sorted/input.bam>
