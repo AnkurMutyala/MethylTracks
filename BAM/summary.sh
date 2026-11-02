@@ -6,6 +6,37 @@
 
 module load modkit
 
-BAM=</PATH/TO/INPUT.BAM>
+#All 6mA summary
+modkit summary </path/to/input.bam> > </path/to/summary.out>
 
-modkit summary $BAM > /PATH/TO/OUTPUT.out
+#GATC summary
+modkit summary \
+  --reference </path/to/hg38.fasta> \
+  --motif GATC 1 \
+  </path/to/sorted/input.bam> > </path/to/summary.out>
+
+#Matched summary
+modkit summary \
+  --reference </path/to/hg38.fasta> \
+  --matched-only \
+  </path/to/sorted/input.bam> > </path/to/summary.out>
+
+#Depth filter summary
+modkit summary \
+    --reference </path/to/hg38.fasta> \
+    --include-bed </path/to/input/filtered/depth/intervals.bed3> \
+    </path/to/sorted/input.bam> > </path/to/summary.out>
+
+#GATC AND depth summary
+modkit summary \
+  --reference </path/to/hg38.fasta> \
+  --motif GATC 1 \
+  --include-bed </path/to/input/filtered/depth/intervals.bed3> \
+  </path/to/sorted/input.bam> > </path/to/summary.out>
+
+  #Matched AND depth summary
+  modkit summary \
+  --reference </path/to/hg38.fasta> \
+  --matched-only \
+  --include-bed </path/to/input/filtered/depth/intervals.bed3> \
+  </path/to/sorted/input.bam> > </path/to/summary.out>
