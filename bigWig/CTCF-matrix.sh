@@ -6,7 +6,7 @@
 
 module load deeptools
 
-computeMatrix reference-point --scoreFileName </path/to/input/bigwig> --regionsFileName </path/to/CTCF/BED> \
+computeMatrix reference-point --scoreFileName </path/to/input.bigwig> --regionsFileName </path/to/CTCF.BED> \
     --downstream 1000 --upstream 1000 \
     --referencePoint center \
     --skipZeros \
