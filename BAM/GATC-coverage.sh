@@ -6,7 +6,5 @@
 
 module load samtools
 
-BAM=</PATH/TO/SORTED/INPUT.BAM>
-
-samtools bedcov -c </PATH/TO/HG38-GATC.BED> \
-$BAM > /PATH/TO/OUPUT.BED
+samtools bedcov -c </path/to/hg38-GATCs.bed> \
+</path/to/input.bam> > </path/to/output.bed>
