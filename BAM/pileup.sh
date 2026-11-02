@@ -6,7 +6,7 @@
 
 module load modkit
 
-modkit pileup </PATH/TO/SORTED/INPUT.BAM> /PATH/TO/OUTPUT.BED \
+modkit pileup </path/to/sorted/input.bam> </path/to/output.bedmethyl> \
 --modified-bases 6mA \
--r </PATH/TO/HG38.FASTA> \
+-r </path/to/hg38.fasta> \
 -f 1.0
